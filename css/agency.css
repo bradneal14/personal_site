@@ -353,10 +353,19 @@ header .intro-text .intro-heading {
 .contact-div2{
   padding: 10px;
 }
+.contact-div3{
+  float: right;
+  padding: 10px;
+  margin-top: -75px;
+}
 .contact-img{
   height: 30px;
   width: 30px;
   margin-right: 10px;
+}
+.contact-img2{
+  height:70px;
+  width: 70px;
 }
 .contact-text{
   height: 30px;
@@ -395,11 +404,26 @@ background-image: url(../img/team/headshot.jpg);
   text-decoration: underline;
 }
 .tech-text-padding{
-  min-height: 100px;
+  min-height: 120px;
+}
+.small-pic-about{
+  justify-content: flex-end;
+}
+.resume-icon-about{
+  float: left;
+  margin-right: -6px;
+  height: 85px;
+  width: 85px;
+}
+.side-pannel{
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .my-img-circle2{
-height: 100px;
-width: 100px;
+height: 75px;
+width: 75px;
 border-radius: 100%;
 overflow: hidden;
 background-position: top;
@@ -407,8 +431,8 @@ background-size: cover;
 border-color: rgb(186,195,203);
 border-style: solid;
 background-image: url(../img/team/headshot.jpg);
-margin-top: -20px;
-margin-right: 61px;
+margin-bottom: 20px;
+float: right;
 }
 .center-div-helper{
   max-width: 725px;
