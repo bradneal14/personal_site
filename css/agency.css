@@ -245,6 +245,27 @@ fieldset[disabled] .btn-xl.active {
     margin-right: 10px;
 
 }
+.padding-top{
+  padding-top: 25px;
+}
+.project-title-bottom-buffer{
+  padding-bottom: 10px;
+}
+.my-btn-circle {
+    width: 45px;
+    height: 45px;
+    margin-top: -10px;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    border-radius: 100%!important;
+    font-size: 25px;
+    color: grey;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+
+}
 
 .btn-circle:hover,
 .btn-circle:focus {
@@ -295,7 +316,7 @@ header .intro-text .intro-lead-in {
   line-height: 22px;
 }
 header .intro-more-info {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
   color: #23249e;
   display: table-caption;
@@ -326,6 +347,21 @@ header .intro-text .intro-heading {
   height: 70px;
 
 }
+.contact-div{
+  padding-top: 28px;
+}
+.contact-div2{
+  padding: 10px;
+}
+.contact-img{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.contact-text{
+  height: 30px;
+  display: inline;
+}
 .my-img-circle{
 height: 206px;
 width: 206px;
@@ -333,11 +369,46 @@ border-radius: 100%;
 overflow: hidden;
 background-position: top;
 background-size: auto;
-margin-top: -60px;
-margin-left: 80px;
+margin: 0 auto;
 border-color: rgb(186,195,203);
 border-style: solid;
 background-image: url(../img/team/headshot.jpg);
+}
+.header-tweaks-right{
+  width: 270px;
+}
+.last-pannel{
+  min-height: 500px;
+}
+.custom-top-padding{
+  padding-top: 30px;
+}
+.header-tweaks{
+  height: 70px;
+}
+.first-pic-format{
+  color: green;
+}
+.blue-link{
+  color: blue;
+  margin-left: 30px;
+  text-decoration: underline;
+}
+.tech-text-padding{
+  min-height: 100px;
+}
+.my-img-circle2{
+height: 100px;
+width: 100px;
+border-radius: 100%;
+overflow: hidden;
+background-position: top;
+background-size: cover;
+border-color: rgb(186,195,203);
+border-style: solid;
+background-image: url(../img/team/headshot.jpg);
+margin-top: -20px;
+margin-right: 61px;
 }
 .center-div-helper{
   max-width: 725px;
