@@ -372,16 +372,17 @@ header .intro-text .intro-heading {
   display: inline;
 }
 .my-img-circle{
-height: 206px;
-width: 206px;
-border-radius: 100%;
-overflow: hidden;
-background-position: top;
-background-size: auto;
-margin: 0 auto;
-border-color: rgb(186,195,203);
-border-style: solid;
-background-image: url(../img/team/headshot.jpg);
+  height: 280px;
+  width: 206px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-position: inherit;
+  background-size: cover;
+  margin: 0 auto;
+  border-color: rgb(186,195,203);
+  border-style: solid;
+  background-image: url(../img/team/headshot.jpg);
+  background-repeat: no-repeat;
 }
 .header-tweaks-right{
   width: 270px;
